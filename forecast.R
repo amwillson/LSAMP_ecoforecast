@@ -336,13 +336,112 @@ forecast_saved_tmp <- model_output %>%  #saving the model out put into new frame
          siteID = site_names[1]) %>%
   mutate(forecast_iteration_id = start_forecast) %>%
   mutate(forecast_project_id = team_name)
-  
+
 # Combined with the previous sites
 forecast_saved_oxygen <- rbind(forecast_saved_oxygen, forecast_saved_tmp)
 
+## TEMPERATURE FORECAST
+# The temperature forecast used here is the null forecast
+# Due to time constraints, only dissolved oxygen was forecasted
+# To avoid penalty for non-submission of a temperature forecast,
+# the null temperature forecast is submitted
+
+# Random walk model
+RandomWalk = "
+model{
+  # Priors
+  x[1] ~ dnorm(x_ic,tau_init)
+  tau_add ~ dgamma(0.1,0.1)
+  tau_init ~ dgamma(0.1,0.1)
+  
+  # Process Model
+  for(t in 2:n){
+    x[t]~dnorm(x[t-1],tau_add)
+    x_obs[t] ~ dnorm(x[t],tau_obs[t])
+  }
+  # Data Model
+  for(i in 1:nobs){
+    y[i] ~ dnorm(x[y_wgaps_index[i]], tau_obs[y_wgaps_index[i]])
+  }
+}
+"
+
+# Copied & modified for single site from null model code available on Github
+forecast_saved_temperature <- NULL
+
+site_data_var <- targets %>%
+  filter(siteID == site_names[1])
+  
+max_time <- max(site_data_var$time) + days(1)
+  
+start_forecast <- max_time
+full_time <- tibble(time = seq(min(site_data_var$time), max(site_data_var$time) + days(f_days), by = "1 day"))
+  
+site_data_var <- left_join(full_time, site_data_var)
+  
+y_wgaps <- site_data_var$temperature
+sd_wgaps <- imputeTS::na_interpolation(site_data_var$temperature_sd,option = "linear")
+time <- c(site_data_var$time)
+y_nogaps <- y_wgaps[!is.na(y_wgaps)]
+y_wgaps_index <- 1:length(y_wgaps)
+y_wgaps_index <- y_wgaps_index[!is.na(y_wgaps)]
+  
+init_x <- approx(x = time[!is.na(y_wgaps)], y = y_nogaps, xout = time, rule = 2)$y
+  
+data <- list(y = y_nogaps,
+             y_wgaps_index = y_wgaps_index,
+             nobs = length(y_wgaps_index),
+             tau_obs = 1/(sd_wgaps ^ 2),
+             n = length(y_wgaps),
+             x_ic = 0.0)
+  
+nchain = 3
+chain_seeds <- c(200,800,1400)
+init <- list()
+for(i in 1:nchain){
+  init[[i]] <- list(tau_add = 1/var(diff(y_nogaps)),
+                    tau_init = mean(1/var(diff(y_nogaps)), na.rm = TRUE),
+                    .RNG.name = "base::Wichmann-Hill",
+                    .RNG.seed = chain_seeds[i],
+                    x = init_x)
+}
+  
+j.model   <- jags.model (file = textConnection(RandomWalk),
+                         data = data,
+                         inits = init,
+                         n.chains = 3)
+  
+jags.out   <- coda.samples(model = j.model,variable.names = c("tau_add","tau_init"), n.iter = 10000)
+  
+m   <- coda.samples(model = j.model,
+                    variable.names = c("x","tau_add","tau_init", "x_obs"),
+                    n.iter = 10000,
+                    thin = 5)
+  
+model_output <- m %>%
+  spread_draws(x_obs[day]) %>%
+  filter(.chain == 1) %>%
+  rename(ensemble = .iteration) %>%
+  mutate(time = full_time$time[day]) %>%
+  ungroup() %>%
+  select(time, x_obs, ensemble)
+  
+forecast_saved_tmp <- model_output %>%
+  filter(time > start_forecast) %>%
+  rename(temperature = x_obs) %>% 
+  mutate(data_assimilation = 0,
+         forecast = 1,
+         obs_flag = 2,
+         siteID = site_names[1]) %>%
+  mutate(forecast_iteration_id = start_forecast) %>%
+  mutate(forecast_project_id = team_name)
+  
+forecast_saved_temperature <- rbind(forecast_saved_temperature, forecast_saved_tmp)
+
 # Combined the oxygen and temperature forecasts together and re-order column
-forecast_saved <- cbind(forecast_saved_oxygen)%>% 
-  select(time, ensemble, siteID, oxygen, obs_flag, forecast, data_assimilation)
+forecast_saved <- cbind(forecast_saved_oxygen, forecast_saved_temperature$temperature) %>% 
+  rename(temperature = `forecast_saved_temperature$temperature`) %>%
+  select(time, ensemble, siteID, oxygen, temperature, obs_flag, forecast, data_assimilation)
 
 # Save file as CSV in the
 # [theme_name]-[year]-[month]-[date]-[team_name].csv
