@@ -1,0 +1,2577 @@
+{
+  "uuid": "50b5b6e9-cd8e-4685-a467-7fad098c47a3",
+  "timestamp": "2021-07-21T17:29:57Z",
+  "zipFileName": "NEON_pressure-air-buoy",
+  "mimeType": "application/zip",
+  "productCode": "DP1.20004.001",
+  "productName": "Barometric pressure above water on-buoy",
+  "siteCodes": [
+    "BARC"
+  ],
+  "startDate": "2017-08-01T00:00:00Z",
+  "endDate": "2021-06-30T23:59:59Z",
+  "packageType": "basic",
+  "documents": [
+    {
+      "fileName": "NEON.DOC.001113vB.pdf",
+      "type": "application/pdf",
+      "fileSizeBytes": 1482286,
+      "description": "ATBD: Quality Flags and Quality Metrics for TIS Data Products",
+      "uri": "https://data.neonscience.org/api/v0/documents/NEON.DOC.001113vB"
+    },
+    {
+      "fileName": "NEON.DOC.011081vC.pdf",
+      "type": "application/pdf",
+      "fileSizeBytes": 516059,
+      "description": "NEON Algorithm Theoretical Basis Document QA/QC Plausibility Testing",
+      "uri": "https://data.neonscience.org/api/v0/documents/NEON.DOC.011081vC"
+    },
+    {
+      "fileName": "NEON.DOC.001152vA.pdf",
+      "type": "application/pdf",
+      "fileSizeBytes": 1118861,
+      "description": "NEON Aquatic Sampling Strategy",
+      "uri": "https://data.neonscience.org/api/v0/documents/NEON.DOC.001152vA"
+    },
+    {
+      "fileName": "NEON.DOC.000653vC.pdf",
+      "type": "application/pdf",
+      "fileSizeBytes": 1284641,
+      "description": "NEON Algorithm Theoretical Basis Document – Barometric Pressure",
+      "uri": "https://data.neonscience.org/api/v0/documents/NEON.DOC.000653vC"
+    },
+    {
+      "fileName": "NEON_ISmaintenance_vA.pdf",
+      "type": "application/pdf",
+      "fileSizeBytes": 221997,
+      "description": "NEON User Guide to AIS Maintenance Data",
+      "uri": "https://data.neonscience.org/api/v0/documents/NEON_ISmaintenance_vA"
+    },
+    {
+      "fileName": "NEON.DOC.000783vA.pdf",
+      "type": "application/pdf",
+      "fileSizeBytes": 305679,
+      "description": "Time Series Automatic Despiking for TIS Level 1 Data Products – QA/QC Algorithm Theoretical Basis Document",
+      "uri": "https://data.neonscience.org/api/v0/documents/NEON.DOC.000783vA"
+    },
+    {
+      "fileName": "NEON.DOC.004613vB.pdf",
+      "type": "application/pdf",
+      "fileSizeBytes": 12904983,
+      "description": "NEON PREVENTIVE MAINTENANCE PROCEDURE: AIS BUOY",
+      "uri": "https://data.neonscience.org/api/v0/documents/NEON.DOC.004613vB"
+    },
+    {
+      "fileName": "NEON.DOC.003808vH.pdf",
+      "type": "application/pdf",
+      "fileSizeBytes": 2570767,
+      "description": "NEON SENSOR COMMAND, CONTROL AND CONFIGURATION (C3) DOCUMENT: BUOY METEOROLOGICAL STATION AND SUBMERGED SENSOR ASSEMBLY",
+      "uri": "https://data.neonscience.org/api/v0/documents/NEON.DOC.003808vH"
+    }
+  ],
+  "releases": [
+    {
+      "release": "PROVISIONAL",
+      "generationDate": null,
+      "packages": [
+        {
+          "release": "PROVISIONAL",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2020-07",
+          "packageType": "basic",
+          "generationDate": "2020-12-14T20:55:45Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2020-07.basic.20201214T205533Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-07/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2020-07.basic.20201214T205533Z.csv",
+              "fileSizeBytes": 194256,
+              "checksum": "24c1ce4f0aa2966699ea2a333d93e487",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T205533Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-07/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T205533Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2020-07.basic.20201214T205533Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-07/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2020-07.basic.20201214T205533Z.csv",
+              "fileSizeBytes": 5419950,
+              "checksum": "510e9f906d295441b9b8e452a99d3211",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20201214T205533Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-07/NEON.D03.BARC.DP1.20004.001.readme.20201214T205533Z.txt",
+              "fileSizeBytes": 13292,
+              "checksum": "b6a593bd328438867d96c14ee1ce9695",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T205533Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-07/NEON.D03.BARC.DP1.20004.001.variables.20201214T205533Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20200701-20200801.20201214T205533Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-07/NEON.D03.BARC.DP1.20004.001.EML.20200701-20200801.20201214T205533Z.xml",
+              "fileSizeBytes": 40451,
+              "checksum": "4b5df39974a827e6c884cfdd6902739b",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "PROVISIONAL",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2020-08",
+          "packageType": "basic",
+          "generationDate": "2020-12-14T20:31:18Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20200801-20200901.20201214T203106Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-08/NEON.D03.BARC.DP1.20004.001.EML.20200801-20200901.20201214T203106Z.xml",
+              "fileSizeBytes": 40451,
+              "checksum": "c3a9e1a4b08c562661f11603d7c977ee",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2020-08.basic.20201214T203106Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-08/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2020-08.basic.20201214T203106Z.csv",
+              "fileSizeBytes": 195055,
+              "checksum": "88ee9423d3a68fb2658929973a5f751f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T203106Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-08/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T203106Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2020-08.basic.20201214T203106Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-08/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2020-08.basic.20201214T203106Z.csv",
+              "fileSizeBytes": 5438218,
+              "checksum": "c7f15d819e32513e50d96d8bf22e7300",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T203106Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-08/NEON.D03.BARC.DP1.20004.001.variables.20201214T203106Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20201214T203106Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-08/NEON.D03.BARC.DP1.20004.001.readme.20201214T203106Z.txt",
+              "fileSizeBytes": 13292,
+              "checksum": "38837005633a4374b475df76cbaf004a",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "PROVISIONAL",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2020-09",
+          "packageType": "basic",
+          "generationDate": "2020-12-14T20:47:47Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2020-09.basic.20201214T204735Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-09/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2020-09.basic.20201214T204735Z.csv",
+              "fileSizeBytes": 187932,
+              "checksum": "ba855eeb7c2ffd1847ce8ba3cbc4adfd",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20201214T204735Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-09/NEON.D03.BARC.DP1.20004.001.readme.20201214T204735Z.txt",
+              "fileSizeBytes": 13292,
+              "checksum": "cb8527af48d673dcb577161c7957da29",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T204735Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-09/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T204735Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20200901-20201001.20201214T204735Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-09/NEON.D03.BARC.DP1.20004.001.EML.20200901-20201001.20201214T204735Z.xml",
+              "fileSizeBytes": 40451,
+              "checksum": "58460640f2f861ac534d44e93ca4566c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T204735Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-09/NEON.D03.BARC.DP1.20004.001.variables.20201214T204735Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2020-09.basic.20201214T204735Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-09/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2020-09.basic.20201214T204735Z.csv",
+              "fileSizeBytes": 5245102,
+              "checksum": "024ffd8200885e2c9b32e3906c06e350",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "PROVISIONAL",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2020-10",
+          "packageType": "basic",
+          "generationDate": "2021-03-19T23:52:40Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20201001-20201101.20210319T235224Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-10/NEON.D03.BARC.DP1.20004.001.EML.20201001-20201101.20210319T235224Z.xml",
+              "fileSizeBytes": 40451,
+              "checksum": "7d7346242b468752bdd7cead58e26826",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2020-10.basic.20210319T235224Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-10/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2020-10.basic.20210319T235224Z.csv",
+              "fileSizeBytes": 193337,
+              "checksum": "3f72f179aad21ad798a30e6e51684516",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20210319T235224Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-10/NEON.D03.BARC.DP1.20004.001.sensor_positions.20210319T235224Z.csv",
+              "fileSizeBytes": 197,
+              "checksum": "9d5c8bfed7f856733905c9d537105b15",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20210319T235224Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-10/NEON.D03.BARC.DP1.20004.001.variables.20210319T235224Z.csv",
+              "fileSizeBytes": 17450,
+              "checksum": "b9db470b3a471b9a6209db30843def22",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2020-10.basic.20210319T235224Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-10/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2020-10.basic.20210319T235224Z.csv",
+              "fileSizeBytes": 5394110,
+              "checksum": "ced6253bc70c7c86b2711f5adfdb3e13",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210319T235224Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-10/NEON.D03.BARC.DP1.20004.001.readme.20210319T235224Z.txt",
+              "fileSizeBytes": 14883,
+              "checksum": "74b59a173c2c44f1449103b585e410ae",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "PROVISIONAL",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2020-11",
+          "packageType": "basic",
+          "generationDate": "2021-03-19T23:31:50Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210319T233135Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-11/NEON.D03.BARC.DP1.20004.001.readme.20210319T233135Z.txt",
+              "fileSizeBytes": 14883,
+              "checksum": "808eabec0ae288cffedc9148b7d2c07e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2020-11.basic.20210319T233135Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-11/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2020-11.basic.20210319T233135Z.csv",
+              "fileSizeBytes": 188435,
+              "checksum": "af4c947621a86abbbe230c4da18cb14f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20210319T233135Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-11/NEON.D03.BARC.DP1.20004.001.sensor_positions.20210319T233135Z.csv",
+              "fileSizeBytes": 197,
+              "checksum": "9d5c8bfed7f856733905c9d537105b15",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20210319T233135Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-11/NEON.D03.BARC.DP1.20004.001.variables.20210319T233135Z.csv",
+              "fileSizeBytes": 17450,
+              "checksum": "b9db470b3a471b9a6209db30843def22",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20201101-20201201.20210319T233135Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-11/NEON.D03.BARC.DP1.20004.001.EML.20201101-20201201.20210319T233135Z.xml",
+              "fileSizeBytes": 40729,
+              "checksum": "c79069c1b96754abb906023d1451e5b6",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2020-11.basic.20210319T233135Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-11/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2020-11.basic.20210319T233135Z.csv",
+              "fileSizeBytes": 5258926,
+              "checksum": "7578569d91f14c032e9ff694bf2be194",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "PROVISIONAL",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2020-12",
+          "packageType": "basic",
+          "generationDate": "2021-03-19T23:01:39Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20210319T230120Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-12/NEON.D03.BARC.DP1.20004.001.sensor_positions.20210319T230120Z.csv",
+              "fileSizeBytes": 197,
+              "checksum": "9d5c8bfed7f856733905c9d537105b15",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2020-12.basic.20210319T230120Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-12/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2020-12.basic.20210319T230120Z.csv",
+              "fileSizeBytes": 194455,
+              "checksum": "e109e7b59e096349f81ac6aa402efb10",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20201201-20210101.20210319T230120Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-12/NEON.D03.BARC.DP1.20004.001.EML.20201201-20210101.20210319T230120Z.xml",
+              "fileSizeBytes": 40451,
+              "checksum": "7c04e22f7a77d65c536c8e2844a3ee6b",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20210319T230120Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-12/NEON.D03.BARC.DP1.20004.001.variables.20210319T230120Z.csv",
+              "fileSizeBytes": 17450,
+              "checksum": "b9db470b3a471b9a6209db30843def22",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210319T230120Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-12/NEON.D03.BARC.DP1.20004.001.readme.20210319T230120Z.txt",
+              "fileSizeBytes": 14883,
+              "checksum": "03c4bcceaf80e5b0cfe786e905823505",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2020-12.basic.20210319T230120Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2020-12/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2020-12.basic.20210319T230120Z.csv",
+              "fileSizeBytes": 5421882,
+              "checksum": "9022fcc40e5645422afa26e12d263d2b",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "PROVISIONAL",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2021-01",
+          "packageType": "basic",
+          "generationDate": "2021-03-19T23:00:43Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2021-01.basic.20210319T230026Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-01/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2021-01.basic.20210319T230026Z.csv",
+              "fileSizeBytes": 5445852,
+              "checksum": "94c98cfc8d2bf3def5bb4aef6e9d3f51",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210319T230026Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-01/NEON.D03.BARC.DP1.20004.001.readme.20210319T230026Z.txt",
+              "fileSizeBytes": 14883,
+              "checksum": "4e6c38997033a5c4092c83298cdfc206",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20210319T230026Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-01/NEON.D03.BARC.DP1.20004.001.variables.20210319T230026Z.csv",
+              "fileSizeBytes": 17450,
+              "checksum": "b9db470b3a471b9a6209db30843def22",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20210319T230026Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-01/NEON.D03.BARC.DP1.20004.001.sensor_positions.20210319T230026Z.csv",
+              "fileSizeBytes": 197,
+              "checksum": "9d5c8bfed7f856733905c9d537105b15",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20210101-20210201.20210319T230026Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-01/NEON.D03.BARC.DP1.20004.001.EML.20210101-20210201.20210319T230026Z.xml",
+              "fileSizeBytes": 40451,
+              "checksum": "be605fdd73c397670db707a75a6e7815",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2021-01.basic.20210319T230026Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-01/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2021-01.basic.20210319T230026Z.csv",
+              "fileSizeBytes": 195115,
+              "checksum": "f9ce296054582c107ce6710ed771c76b",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "PROVISIONAL",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2021-02",
+          "packageType": "basic",
+          "generationDate": "2021-04-07T13:46:43Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2021-02.basic.20210407T134628Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-02/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2021-02.basic.20210407T134628Z.csv",
+              "fileSizeBytes": 4688309,
+              "checksum": "8a6011dd8cb792dc05a8aca0394da852",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20210407T134628Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-02/NEON.D03.BARC.DP1.20004.001.sensor_positions.20210407T134628Z.csv",
+              "fileSizeBytes": 197,
+              "checksum": "9d5c8bfed7f856733905c9d537105b15",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2021-02.basic.20210407T134628Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-02/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2021-02.basic.20210407T134628Z.csv",
+              "fileSizeBytes": 173243,
+              "checksum": "5e83e5f15ef7a8c4af1874799c6b7f4b",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210407T134628Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-02/NEON.D03.BARC.DP1.20004.001.readme.20210407T134628Z.txt",
+              "fileSizeBytes": 14883,
+              "checksum": "a99fd26955082ab8f5da97ea76dae1e1",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20210407T134628Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-02/NEON.D03.BARC.DP1.20004.001.variables.20210407T134628Z.csv",
+              "fileSizeBytes": 17450,
+              "checksum": "b9db470b3a471b9a6209db30843def22",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20210201-20210301.20210407T134628Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-02/NEON.D03.BARC.DP1.20004.001.EML.20210201-20210301.20210407T134628Z.xml",
+              "fileSizeBytes": 40729,
+              "checksum": "d71784f1a0421fb08a40a67f84a04cb5",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "PROVISIONAL",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2021-03",
+          "packageType": "basic",
+          "generationDate": "2021-04-04T19:35:54Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2021-03.basic.20210404T193539Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-03/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2021-03.basic.20210404T193539Z.csv",
+              "fileSizeBytes": 194466,
+              "checksum": "03ee6a55bf1836b9a85e1087bddf4e0d",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20210301-20210401.20210404T193539Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-03/NEON.D03.BARC.DP1.20004.001.EML.20210301-20210401.20210404T193539Z.xml",
+              "fileSizeBytes": 40451,
+              "checksum": "6761bf6b8fe9a6249467dbe640e10a6a",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2021-03.basic.20210404T193539Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-03/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2021-03.basic.20210404T193539Z.csv",
+              "fileSizeBytes": 5425834,
+              "checksum": "92abc3f053fe02cd96ee556453ed9a7c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20210404T193539Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-03/NEON.D03.BARC.DP1.20004.001.variables.20210404T193539Z.csv",
+              "fileSizeBytes": 17450,
+              "checksum": "b9db470b3a471b9a6209db30843def22",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210404T193539Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-03/NEON.D03.BARC.DP1.20004.001.readme.20210404T193539Z.txt",
+              "fileSizeBytes": 14883,
+              "checksum": "e90abe264c93c989524d661557e8e529",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20210404T193539Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-03/NEON.D03.BARC.DP1.20004.001.sensor_positions.20210404T193539Z.csv",
+              "fileSizeBytes": 197,
+              "checksum": "9d5c8bfed7f856733905c9d537105b15",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "PROVISIONAL",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2021-04",
+          "packageType": "basic",
+          "generationDate": "2021-05-04T17:31:40Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2021-04.basic.20210504T173128Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-04/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2021-04.basic.20210504T173128Z.csv",
+              "fileSizeBytes": 5246403,
+              "checksum": "ffde690592594f0ac5a4618be832be71",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2021-04.basic.20210504T173128Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-04/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2021-04.basic.20210504T173128Z.csv",
+              "fileSizeBytes": 188098,
+              "checksum": "5b3a477b6d8389cf1eceab5f8e9900ea",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20210504T173128Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-04/NEON.D03.BARC.DP1.20004.001.sensor_positions.20210504T173128Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210504T173128Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-04/NEON.D03.BARC.DP1.20004.001.readme.20210504T173128Z.txt",
+              "fileSizeBytes": 14883,
+              "checksum": "9ac0d3b0327b886039af10c8c9f65671",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20210504T173128Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-04/NEON.D03.BARC.DP1.20004.001.variables.20210504T173128Z.csv",
+              "fileSizeBytes": 17450,
+              "checksum": "b9db470b3a471b9a6209db30843def22",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20210401-20210501.20210504T173128Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-04/NEON.D03.BARC.DP1.20004.001.EML.20210401-20210501.20210504T173128Z.xml",
+              "fileSizeBytes": 40451,
+              "checksum": "253fdd3ec810ab14cfc576d1c7f4f7a9",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "PROVISIONAL",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2021-05",
+          "packageType": "basic",
+          "generationDate": "2021-06-02T17:48:59Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20210501-20210601.20210602T174844Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-05/NEON.D03.BARC.DP1.20004.001.EML.20210501-20210601.20210602T174844Z.xml",
+              "fileSizeBytes": 40451,
+              "checksum": "6c309ca7c49bc3960e611207788a70b8",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20210602T174844Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-05/NEON.D03.BARC.DP1.20004.001.variables.20210602T174844Z.csv",
+              "fileSizeBytes": 17450,
+              "checksum": "b9db470b3a471b9a6209db30843def22",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20210602T174844Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-05/NEON.D03.BARC.DP1.20004.001.sensor_positions.20210602T174844Z.csv",
+              "fileSizeBytes": 475,
+              "checksum": "7886beb894ba55e7f86e19119bb4ddbf",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2021-05.basic.20210602T174844Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-05/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2021-05.basic.20210602T174844Z.csv",
+              "fileSizeBytes": 193380,
+              "checksum": "34a4521a1546cf0b4c7330cf61560938",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2021-05.basic.20210602T174844Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-05/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2021-05.basic.20210602T174844Z.csv",
+              "fileSizeBytes": 5384266,
+              "checksum": "6bb6eeb9a4ac32ecdb31a74d81406b57",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210602T174844Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-05/NEON.D03.BARC.DP1.20004.001.readme.20210602T174844Z.txt",
+              "fileSizeBytes": 14906,
+              "checksum": "d30c2f236efdbeaf4b90ebccbcec9bd7",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "PROVISIONAL",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2021-06",
+          "packageType": "basic",
+          "generationDate": "2021-07-12T21:54:36Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2021-06.basic.20210712T215420Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-06/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2021-06.basic.20210712T215420Z.csv",
+              "fileSizeBytes": 187811,
+              "checksum": "62ef0cc1973a3181370331f168fc06c8",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20210712T215420Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-06/NEON.D03.BARC.DP1.20004.001.sensor_positions.20210712T215420Z.csv",
+              "fileSizeBytes": 475,
+              "checksum": "7886beb894ba55e7f86e19119bb4ddbf",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210712T215420Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-06/NEON.D03.BARC.DP1.20004.001.readme.20210712T215420Z.txt",
+              "fileSizeBytes": 10374,
+              "checksum": "d2721968c631c107dfb1b19707b3a5be",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2021-06.basic.20210712T215420Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-06/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2021-06.basic.20210712T215420Z.csv",
+              "fileSizeBytes": 5240314,
+              "checksum": "574a490c4fb7c62775eb5ccebc27beda",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20210601-20210701.20210712T215420Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-06/NEON.D03.BARC.DP1.20004.001.EML.20210601-20210701.20210712T215420Z.xml",
+              "fileSizeBytes": 41967,
+              "checksum": "b2fb7a8c9ca0cd8e1a15bd1736c5f02e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20210712T215420Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-06/NEON.D03.BARC.DP1.20004.001.variables.20210712T215420Z.csv",
+              "fileSizeBytes": 17450,
+              "checksum": "b9db470b3a471b9a6209db30843def22",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "release": "RELEASE-2021",
+      "generationDate": "2021-01-23T02:30:02Z",
+      "packages": [
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2017-08",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2017-08.basic.20201214T205153Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2017-08/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2017-08.basic.20201214T205153Z.csv",
+              "fileSizeBytes": 31621,
+              "checksum": "635fca8d65d9f91e51fad6a248dabcee",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2017-08/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "84541d880ebae9c9b98698e924d8ce36",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20170827-20170901.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2017-08/NEON.D03.BARC.DP1.20004.001.EML.20170827-20170901.20210123T023002Z.xml",
+              "fileSizeBytes": 77283,
+              "checksum": "d8a1a49dd924f6fefbf1a43edeae1462",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T205153Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2017-08/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T205153Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2017-08.basic.20201214T205153Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2017-08/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2017-08.basic.20201214T205153Z.csv",
+              "fileSizeBytes": 878546,
+              "checksum": "8dcfaf6d9b5be7e0acd90f50f9b8268a",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T205153Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2017-08/NEON.D03.BARC.DP1.20004.001.variables.20201214T205153Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2017-09",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20170901-20171001.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2017-09/NEON.D03.BARC.DP1.20004.001.EML.20170901-20171001.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "2c019e6ad03933236420b6ba8083d1c3",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2017-09.basic.20201214T205330Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2017-09/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2017-09.basic.20201214T205330Z.csv",
+              "fileSizeBytes": 5264538,
+              "checksum": "80f9d40e4494a568473ab0beffa51d3a",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2017-09/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "0ca69c7463bbbc3a84e97ab0ec457334",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T205330Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2017-09/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T205330Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T205330Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2017-09/NEON.D03.BARC.DP1.20004.001.variables.20201214T205330Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2017-09.basic.20201214T205330Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2017-09/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2017-09.basic.20201214T205330Z.csv",
+              "fileSizeBytes": 188598,
+              "checksum": "9a6c892d49bf0593dd42ccf243097236",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2017-10",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T202604Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2017-10/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T202604Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2017-10.basic.20201214T202604Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2017-10/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2017-10.basic.20201214T202604Z.csv",
+              "fileSizeBytes": 5444864,
+              "checksum": "160f0409aa1f132cc6205bf96a9b540f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20171001-20171101.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2017-10/NEON.D03.BARC.DP1.20004.001.EML.20171001-20171101.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "382711af91fef3f12f65162354e26d20",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T202604Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2017-10/NEON.D03.BARC.DP1.20004.001.variables.20201214T202604Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2017-10/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "8d41cd7760dea6f23bcc4eea8e0453ff",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2017-10.basic.20201214T202604Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2017-10/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2017-10.basic.20201214T202604Z.csv",
+              "fileSizeBytes": 195065,
+              "checksum": "f404020e990bd5d15186ada82e1aa7a4",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2017-11",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T202604Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2017-11/NEON.D03.BARC.DP1.20004.001.variables.20201214T202604Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2017-11.basic.20201214T202604Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2017-11/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2017-11.basic.20201214T202604Z.csv",
+              "fileSizeBytes": 188477,
+              "checksum": "543fdb353c1bc6c61f049c580ff417a2",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2017-11.basic.20201214T202604Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2017-11/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2017-11.basic.20201214T202604Z.csv",
+              "fileSizeBytes": 5240598,
+              "checksum": "7f9ba7fb5d759bbf1a40a44d1ef29e49",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2017-11/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "06fedbb96f9f8f72909ffb26c7f56cc8",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T202604Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2017-11/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T202604Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20171101-20171201.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2017-11/NEON.D03.BARC.DP1.20004.001.EML.20171101-20171201.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "3128a0dc569b1941a02f37905ee1d428",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2017-12",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T204223Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2017-12/NEON.D03.BARC.DP1.20004.001.variables.20201214T204223Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2017-12.basic.20201214T204223Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2017-12/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2017-12.basic.20201214T204223Z.csv",
+              "fileSizeBytes": 167124,
+              "checksum": "b2d03eee8ce51d714491b8a69fea2657",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2017-12/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "1607807bdad0bbb2e486aa638c64aadf",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T204223Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2017-12/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T204223Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2017-12.basic.20201214T204223Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2017-12/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2017-12.basic.20201214T204223Z.csv",
+              "fileSizeBytes": 4667095,
+              "checksum": "1816a0ed62ef678d9dfb9017aec9556f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20171201-20180101.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2017-12/NEON.D03.BARC.DP1.20004.001.EML.20171201-20180101.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "5593d60005c85dd2c9d53c9de49ac529",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2018-01",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T204514Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-01/NEON.D03.BARC.DP1.20004.001.variables.20201214T204514Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2018-01.basic.20201214T204514Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-01/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2018-01.basic.20201214T204514Z.csv",
+              "fileSizeBytes": 2589290,
+              "checksum": "3d59b1b0cf04b62a78d1c673af1977ef",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2018-01.basic.20201214T204514Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-01/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2018-01.basic.20201214T204514Z.csv",
+              "fileSizeBytes": 87979,
+              "checksum": "7f9a769465dc150eab8e012cf21576e1",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T204514Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-01/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T204514Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20180101-20180201.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-01/NEON.D03.BARC.DP1.20004.001.EML.20180101-20180201.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "274ea92db7e80a7e20d3a1400064c4f4",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-01/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "a199864d4408d6bf138f03858c6aff2e",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2018-02",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T203005Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-02/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T203005Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-02/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "cf1a1ac5e4d9bd1a2c0c79ae8ad09c41",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20180201-20180301.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-02/NEON.D03.BARC.DP1.20004.001.EML.20180201-20180301.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "e847d08fd12af50072aa1aaa7c89f433",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2018-02.basic.20201214T203005Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-02/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2018-02.basic.20201214T203005Z.csv",
+              "fileSizeBytes": 2338730,
+              "checksum": "027c2879a2672946d77ad9e45a3fc62a",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T203005Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-02/NEON.D03.BARC.DP1.20004.001.variables.20201214T203005Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2018-02.basic.20201214T203005Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-02/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2018-02.basic.20201214T203005Z.csv",
+              "fileSizeBytes": 79483,
+              "checksum": "e6802a68a677607d5370b63f7f9baf7c",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2018-03",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T204352Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-03/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T204352Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2018-03.basic.20201214T204352Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-03/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2018-03.basic.20201214T204352Z.csv",
+              "fileSizeBytes": 192803,
+              "checksum": "0df281ab994da275f2eaf48677022a2f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-03/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "06449c3047969ace0ade6aa98143c93a",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T204352Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-03/NEON.D03.BARC.DP1.20004.001.variables.20201214T204352Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2018-03.basic.20201214T204352Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-03/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2018-03.basic.20201214T204352Z.csv",
+              "fileSizeBytes": 5376379,
+              "checksum": "f32c51546ede478c306904f8330f1c1f",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20180301-20180401.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-03/NEON.D03.BARC.DP1.20004.001.EML.20180301-20180401.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "8bea5d0339f730c838e3569f73531f65",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2018-04",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T204500Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-04/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T204500Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2018-04.basic.20201214T204500Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-04/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2018-04.basic.20201214T204500Z.csv",
+              "fileSizeBytes": 151906,
+              "checksum": "1cd4f5d4b7c98c363845aead518e33b8",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2018-04.basic.20201214T204500Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-04/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2018-04.basic.20201214T204500Z.csv",
+              "fileSizeBytes": 4257370,
+              "checksum": "741255ba9b306932ecf5e3b4a9c3bc13",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20180401-20180501.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-04/NEON.D03.BARC.DP1.20004.001.EML.20180401-20180501.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "18ac8b7e101daa7e5fbdfa2eb229874d",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T204500Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-04/NEON.D03.BARC.DP1.20004.001.variables.20201214T204500Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-04/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "d2fb16ab9436432c1837c3c6b5d87648",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2018-05",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2018-05.basic.20201214T202604Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-05/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2018-05.basic.20201214T202604Z.csv",
+              "fileSizeBytes": 4960314,
+              "checksum": "3bf7165a5d220f218cfb88fefc4ca0bd",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2018-05.basic.20201214T202604Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-05/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2018-05.basic.20201214T202604Z.csv",
+              "fileSizeBytes": 177538,
+              "checksum": "72136297b569d623621357c003945205",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-05/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "e32d32320c78c4dea511bf5ad6dc6af2",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T202604Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-05/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T202604Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T202604Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-05/NEON.D03.BARC.DP1.20004.001.variables.20201214T202604Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20180501-20180601.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-05/NEON.D03.BARC.DP1.20004.001.EML.20180501-20180601.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "38b74b7f18b543e8547861d8b0b649d2",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2018-06",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T202604Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-06/NEON.D03.BARC.DP1.20004.001.variables.20201214T202604Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2018-06.basic.20201214T202604Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-06/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2018-06.basic.20201214T202604Z.csv",
+              "fileSizeBytes": 5179290,
+              "checksum": "1cee11ebaaf4e6a87b5029477bfd2a67",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T202604Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-06/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T202604Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-06/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "d922f143db5375158bea11725a5878cb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2018-06.basic.20201214T202604Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-06/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2018-06.basic.20201214T202604Z.csv",
+              "fileSizeBytes": 185842,
+              "checksum": "d5390469f14b80a5f3feebd55d4ed782",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20180601-20180701.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-06/NEON.D03.BARC.DP1.20004.001.EML.20180601-20180701.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "792f26f4e03b5082605fdf8f9e82802d",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2018-07",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2018-07.basic.20201214T204634Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-07/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2018-07.basic.20201214T204634Z.csv",
+              "fileSizeBytes": 188679,
+              "checksum": "72bb94986aad74ac79d94845feab11b5",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T204634Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-07/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T204634Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-07/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "caedb24fcfd705a6c6a67628e5e757c9",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20180701-20180801.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-07/NEON.D03.BARC.DP1.20004.001.EML.20180701-20180801.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "fdce8b0c79e838cf01840d65df34c020",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T204634Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-07/NEON.D03.BARC.DP1.20004.001.variables.20201214T204634Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2018-07.basic.20201214T204634Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-07/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2018-07.basic.20201214T204634Z.csv",
+              "fileSizeBytes": 5252522,
+              "checksum": "e3557dc80b27c3b012368ed5b9d2bd7f",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2018-08",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2018-08.basic.20201214T203052Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-08/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2018-08.basic.20201214T203052Z.csv",
+              "fileSizeBytes": 5376611,
+              "checksum": "0fb598e2368e0a32cf5a79eea5bf7efc",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2018-08.basic.20201214T203052Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-08/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2018-08.basic.20201214T203052Z.csv",
+              "fileSizeBytes": 192882,
+              "checksum": "8026037a66df011ceb0c9722c891f0b4",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-08/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "2d2399c0cf306f5484704df830c2d397",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T203052Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-08/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T203052Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20180801-20180901.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-08/NEON.D03.BARC.DP1.20004.001.EML.20180801-20180901.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "aea8c6a84f375e7c5895e0123c13fb95",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T203052Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-08/NEON.D03.BARC.DP1.20004.001.variables.20201214T203052Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2018-09",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T203056Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-09/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T203056Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-09/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "52955e536552a94f1912451a4658b3d8",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20180901-20181001.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-09/NEON.D03.BARC.DP1.20004.001.EML.20180901-20181001.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "019a898ec47fa220cb5125a8929dfcb0",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2018-09.basic.20201214T203056Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-09/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2018-09.basic.20201214T203056Z.csv",
+              "fileSizeBytes": 5266890,
+              "checksum": "fd1f288bd76ed06b359db33df3e87ca1",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T203056Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-09/NEON.D03.BARC.DP1.20004.001.variables.20201214T203056Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2018-09.basic.20201214T203056Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-09/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2018-09.basic.20201214T203056Z.csv",
+              "fileSizeBytes": 188827,
+              "checksum": "fa2786f31e2f0c978436a0afdd0ad361",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2018-10",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2018-10.basic.20201214T202604Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-10/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2018-10.basic.20201214T202604Z.csv",
+              "fileSizeBytes": 194818,
+              "checksum": "ccaa400f46608f090371f1c713b5e7bd",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20181001-20181101.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-10/NEON.D03.BARC.DP1.20004.001.EML.20181001-20181101.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "3ae093fb186d23a3a5404933e70a675c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-10/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "4e81c78c26913e1b824e140b8273e019",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2018-10.basic.20201214T202604Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-10/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2018-10.basic.20201214T202604Z.csv",
+              "fileSizeBytes": 5435434,
+              "checksum": "3c0e60301bd15fe5048e2bbea897bf3c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T202604Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-10/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T202604Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T202604Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-10/NEON.D03.BARC.DP1.20004.001.variables.20201214T202604Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2018-11",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2018-11.basic.20201214T204613Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-11/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2018-11.basic.20201214T204613Z.csv",
+              "fileSizeBytes": 4522698,
+              "checksum": "66a0d40395fb875e4af45af99c25de35",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T204613Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-11/NEON.D03.BARC.DP1.20004.001.variables.20201214T204613Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-11/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "3b858f3fa7c536e3b1036f4bd66afd2d",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2018-11.basic.20201214T204613Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-11/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2018-11.basic.20201214T204613Z.csv",
+              "fileSizeBytes": 161928,
+              "checksum": "9ae54a44abf014c7a1df586020d5d2cb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20181101-20181201.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-11/NEON.D03.BARC.DP1.20004.001.EML.20181101-20181201.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "f8f1f6306ff9f91587393822987692fc",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T204613Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-11/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T204613Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2018-12",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20181201-20190101.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-12/NEON.D03.BARC.DP1.20004.001.EML.20181201-20190101.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "f4c7457c430287aefae564382a1b5761",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T205041Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-12/NEON.D03.BARC.DP1.20004.001.variables.20201214T205041Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T205041Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-12/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T205041Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-12/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "d07e428dba388e4fcba3f6f37d931e5a",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2018-12.basic.20201214T205041Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-12/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2018-12.basic.20201214T205041Z.csv",
+              "fileSizeBytes": 4431126,
+              "checksum": "16ece7521b412248da8653f24b82397d",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2018-12.basic.20201214T205041Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2018-12/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2018-12.basic.20201214T205041Z.csv",
+              "fileSizeBytes": 157924,
+              "checksum": "25a163a4d4f010ca81111260f10e54ea",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2019-01",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2019-01.basic.20201214T203114Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-01/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2019-01.basic.20201214T203114Z.csv",
+              "fileSizeBytes": 194963,
+              "checksum": "7820a02a32bcec2048472d48f080fbcd",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-01/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "dbdc3afae76e168e13f4c65b5c957de1",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T203114Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-01/NEON.D03.BARC.DP1.20004.001.variables.20201214T203114Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2019-01.basic.20201214T203114Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-01/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2019-01.basic.20201214T203114Z.csv",
+              "fileSizeBytes": 5440156,
+              "checksum": "f38c64875bb9049338b5bb79582e36c7",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20190101-20190201.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-01/NEON.D03.BARC.DP1.20004.001.EML.20190101-20190201.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "4211011c9ecd6708ba0991c8a5465ed8",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T203114Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-01/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T203114Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2019-02",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2019-02.basic.20201214T205921Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-02/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2019-02.basic.20201214T205921Z.csv",
+              "fileSizeBytes": 4871443,
+              "checksum": "ae6cda22797d31eabbdd7b6396e60cd5",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T205921Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-02/NEON.D03.BARC.DP1.20004.001.variables.20201214T205921Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-02/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "da68e53402e0f340728a4693e17a5cc7",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T205921Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-02/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T205921Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2019-02.basic.20201214T205921Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-02/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2019-02.basic.20201214T205921Z.csv",
+              "fileSizeBytes": 174736,
+              "checksum": "301bb2deabf00c09dfca56bc5f5e00d5",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20190201-20190301.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-02/NEON.D03.BARC.DP1.20004.001.EML.20190201-20190301.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "c90f37e1d98ee590edad389421ad4a1f",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2019-03",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20190301-20190401.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-03/NEON.D03.BARC.DP1.20004.001.EML.20190301-20190401.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "f12a9853ee679bb0435734d8e452904c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2019-03.basic.20201214T205054Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-03/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2019-03.basic.20201214T205054Z.csv",
+              "fileSizeBytes": 5329642,
+              "checksum": "d3759598165cdc5dfade892c47e157f6",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T205054Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-03/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T205054Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2019-03.basic.20201214T205054Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-03/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2019-03.basic.20201214T205054Z.csv",
+              "fileSizeBytes": 191066,
+              "checksum": "90856df181fc988b8470a309e09cd9cc",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-03/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "7c2c83dc9099c347e3852768b433dcf7",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T205054Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-03/NEON.D03.BARC.DP1.20004.001.variables.20201214T205054Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2019-04",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20190401-20190501.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-04/NEON.D03.BARC.DP1.20004.001.EML.20190401-20190501.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "301c1610cc4dfc932a8e2e349aaeb108",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2019-04.basic.20201214T205814Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-04/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2019-04.basic.20201214T205814Z.csv",
+              "fileSizeBytes": 185874,
+              "checksum": "4463acf4984cf42b33b49ee3fe6219aa",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2019-04.basic.20201214T205814Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-04/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2019-04.basic.20201214T205814Z.csv",
+              "fileSizeBytes": 5185626,
+              "checksum": "b0f2c5339349ab2700fc0e6858a858d9",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T205814Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-04/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T205814Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T205814Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-04/NEON.D03.BARC.DP1.20004.001.variables.20201214T205814Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-04/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "87e20abbde5b2e40f9ce61144f0c5083",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2019-05",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T203916Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-05/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T203916Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T203916Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-05/NEON.D03.BARC.DP1.20004.001.variables.20201214T203916Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20190501-20190601.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-05/NEON.D03.BARC.DP1.20004.001.EML.20190501-20190601.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "8768062a856b729dab8f06373a7ef4d2",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2019-05.basic.20201214T203916Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-05/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2019-05.basic.20201214T203916Z.csv",
+              "fileSizeBytes": 5397882,
+              "checksum": "a7f7247b4e13109689283f6d32181633",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2019-05.basic.20201214T203916Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-05/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2019-05.basic.20201214T203916Z.csv",
+              "fileSizeBytes": 193411,
+              "checksum": "8dc3f5de91d03001f3c74a9d3bf54332",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-05/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "7724792b22a6c7ac8a0afa5d2a4d9448",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2019-06",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-06/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "a679ae621cd173eeac7d4b12f0f79857",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20190601-20190701.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-06/NEON.D03.BARC.DP1.20004.001.EML.20190601-20190701.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "dddedd9d51628010b44219a30d713968",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T202604Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-06/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T202604Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2019-06.basic.20201214T202604Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-06/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2019-06.basic.20201214T202604Z.csv",
+              "fileSizeBytes": 4127178,
+              "checksum": "61dd129b9c44dcd4c4edd6d9b45af8a8",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2019-06.basic.20201214T202604Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-06/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2019-06.basic.20201214T202604Z.csv",
+              "fileSizeBytes": 148786,
+              "checksum": "5823257f72d7508d002734b5223aa9f6",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T202604Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-06/NEON.D03.BARC.DP1.20004.001.variables.20201214T202604Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2019-07",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20190701-20190801.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-07/NEON.D03.BARC.DP1.20004.001.EML.20190701-20190801.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "97934d68fb1461adf6f39e449f0570d2",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T204725Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-07/NEON.D03.BARC.DP1.20004.001.variables.20201214T204725Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2019-07.basic.20201214T204725Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-07/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2019-07.basic.20201214T204725Z.csv",
+              "fileSizeBytes": 153567,
+              "checksum": "d4801a411a0ecffd3e15ac77006f2796",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-07/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "b674898a30aa2dbc44543af143ec74a3",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T204725Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-07/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T204725Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2019-07.basic.20201214T204725Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-07/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2019-07.basic.20201214T204725Z.csv",
+              "fileSizeBytes": 4269546,
+              "checksum": "d0e501f189ba97ec6fec185d8e62f342",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2019-08",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20190801-20190901.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-08/NEON.D03.BARC.DP1.20004.001.EML.20190801-20190901.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "6438f6ee771c45da75a729b62fe9c766",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2019-08.basic.20201214T205802Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-08/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2019-08.basic.20201214T205802Z.csv",
+              "fileSizeBytes": 145264,
+              "checksum": "2c591ddaaa37ff655b4ea19aa4d02c8a",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-08/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "36f059afdbe29708b536a4a554d9c6a5",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2019-08.basic.20201214T205802Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-08/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2019-08.basic.20201214T205802Z.csv",
+              "fileSizeBytes": 4051242,
+              "checksum": "c0b8f1c195b2da376b2f756aa4ab7eed",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T205802Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-08/NEON.D03.BARC.DP1.20004.001.variables.20201214T205802Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T205802Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-08/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T205802Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2019-09",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T204240Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-09/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T204240Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2019-09.basic.20201214T204240Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-09/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2019-09.basic.20201214T204240Z.csv",
+              "fileSizeBytes": 137173,
+              "checksum": "7f6535ecef131f28ce2e27439a3dfb18",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-09/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "711e119c5132e876f430e9648659c058",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2019-09.basic.20201214T204240Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-09/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2019-09.basic.20201214T204240Z.csv",
+              "fileSizeBytes": 3829418,
+              "checksum": "a44a769afd470b8d5ad735886a0916cf",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20190901-20191001.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-09/NEON.D03.BARC.DP1.20004.001.EML.20190901-20191001.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "05c023d86fa81d5149e0706192e7cb67",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T204240Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-09/NEON.D03.BARC.DP1.20004.001.variables.20201214T204240Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2019-10",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T205028Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-10/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T205028Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2019-10.basic.20201214T205028Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-10/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2019-10.basic.20201214T205028Z.csv",
+              "fileSizeBytes": 4609130,
+              "checksum": "121bd61a46a01f5f1e632a2fc2224b5c",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-10/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "8e7f17cc7fe9a01d71189ee3d8051fda",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2019-10.basic.20201214T205028Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-10/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2019-10.basic.20201214T205028Z.csv",
+              "fileSizeBytes": 164748,
+              "checksum": "2d6d946b73fcf9ff6544058b36abc07a",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20191001-20191101.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-10/NEON.D03.BARC.DP1.20004.001.EML.20191001-20191101.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "4b0a7e6a2df9d298b300326d1e93b89e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T205028Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-10/NEON.D03.BARC.DP1.20004.001.variables.20201214T205028Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2019-11",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T205534Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-11/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T205534Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2019-11.basic.20201214T205534Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-11/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2019-11.basic.20201214T205534Z.csv",
+              "fileSizeBytes": 4410666,
+              "checksum": "c7c63b2b68304f3a03fbab35e9c5562e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20191101-20191201.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-11/NEON.D03.BARC.DP1.20004.001.EML.20191101-20191201.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "9486fd2071369f700b6aafa970bebcbd",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-11/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "9f4a6837fd6acee826d26ee598d65a52",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T205534Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-11/NEON.D03.BARC.DP1.20004.001.variables.20201214T205534Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2019-11.basic.20201214T205534Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-11/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2019-11.basic.20201214T205534Z.csv",
+              "fileSizeBytes": 156857,
+              "checksum": "b3f69f5b5fada5c1c7f708f941b1b284",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2019-12",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-12/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "8f26611ed49988ad875f504590a6d137",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T204959Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-12/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T204959Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2019-12.basic.20201214T204959Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-12/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2019-12.basic.20201214T204959Z.csv",
+              "fileSizeBytes": 149017,
+              "checksum": "ed98278e3fdf1969b13029ed55bc4b27",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T204959Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-12/NEON.D03.BARC.DP1.20004.001.variables.20201214T204959Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20191201-20200101.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-12/NEON.D03.BARC.DP1.20004.001.EML.20191201-20200101.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "9043fe6e75eee9a5bf7c4778c9c49b4e",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2019-12.basic.20201214T204959Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2019-12/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2019-12.basic.20201214T204959Z.csv",
+              "fileSizeBytes": 4207404,
+              "checksum": "d88d7bd53ea3cc660eba6e151c183160",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2020-01",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T203033Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-01/NEON.D03.BARC.DP1.20004.001.variables.20201214T203033Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2020-01.basic.20201214T203033Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-01/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2020-01.basic.20201214T203033Z.csv",
+              "fileSizeBytes": 186058,
+              "checksum": "148809e9e051330bd100bf8b3dcf96f9",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T203033Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-01/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T203033Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2020-01.basic.20201214T203033Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-01/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2020-01.basic.20201214T203033Z.csv",
+              "fileSizeBytes": 5185839,
+              "checksum": "e06a96945f5a41cf19fd51ffd92885f8",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-01/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "a130bf04fd0168227e55383670c1eba7",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20200101-20200201.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-01/NEON.D03.BARC.DP1.20004.001.EML.20200101-20200201.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "1d833012d5c6af857113a19a3bc353d9",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2020-02",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20200201-20200301.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-02/NEON.D03.BARC.DP1.20004.001.EML.20200201-20200301.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "257584d946ab3689cc1e826d600b387d",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2020-02.basic.20201214T204456Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-02/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2020-02.basic.20201214T204456Z.csv",
+              "fileSizeBytes": 4607676,
+              "checksum": "d9adc1b5038a1faf29ba75d96a3738b7",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T204456Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-02/NEON.D03.BARC.DP1.20004.001.variables.20201214T204456Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T204456Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-02/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T204456Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-02/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "f2919e8467a810def7b642601f0b19bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2020-02.basic.20201214T204456Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-02/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2020-02.basic.20201214T204456Z.csv",
+              "fileSizeBytes": 164526,
+              "checksum": "6f4e6f00e1feb1c234624d3412dd8cda",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2020-03",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2020-03.basic.20201214T202604Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-03/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2020-03.basic.20201214T202604Z.csv",
+              "fileSizeBytes": 194513,
+              "checksum": "85f163cb8650de0216a2f18fa0b081ba",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T202604Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-03/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T202604Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2020-03.basic.20201214T202604Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-03/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2020-03.basic.20201214T202604Z.csv",
+              "fileSizeBytes": 5429814,
+              "checksum": "0d812db9da40cc1da101b9a6266a7805",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-03/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "b4d78f808cf78cc0e2a8846444ba2d5b",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T202604Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-03/NEON.D03.BARC.DP1.20004.001.variables.20201214T202604Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20200301-20200401.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-03/NEON.D03.BARC.DP1.20004.001.EML.20200301-20200401.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "96d41ff6781e86cbed4c615334e7613b",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2020-04",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20200401-20200501.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-04/NEON.D03.BARC.DP1.20004.001.EML.20200401-20200501.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "6452b47c1c261ce5b909fdd79e3db4c6",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-04/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "b4d220bbc15fe11d33eb588b68148544",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T204913Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-04/NEON.D03.BARC.DP1.20004.001.variables.20201214T204913Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2020-04.basic.20201214T204913Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-04/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2020-04.basic.20201214T204913Z.csv",
+              "fileSizeBytes": 188795,
+              "checksum": "4636f46dd237d2114aee80b669cbc6e3",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T204913Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-04/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T204913Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2020-04.basic.20201214T204913Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-04/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2020-04.basic.20201214T204913Z.csv",
+              "fileSizeBytes": 5270090,
+              "checksum": "727685dee28ea73838b095bfb4ebaba8",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2020-05",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-05/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "dc84ca49a243e77fea610be2271b0a43",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2020-05.basic.20201214T205445Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-05/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2020-05.basic.20201214T205445Z.csv",
+              "fileSizeBytes": 185146,
+              "checksum": "c9b1d4d5c41a273578d63ba69c88da72",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2020-05.basic.20201214T205445Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-05/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2020-05.basic.20201214T205445Z.csv",
+              "fileSizeBytes": 5178870,
+              "checksum": "343dececb4dad659281841a05283c3c7",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T205445Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-05/NEON.D03.BARC.DP1.20004.001.variables.20201214T205445Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20200501-20200601.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-05/NEON.D03.BARC.DP1.20004.001.EML.20200501-20200601.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "db256ad8825e21ff86618537702d1478",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T205445Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-05/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T205445Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        },
+        {
+          "release": "RELEASE-2021",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2020-06",
+          "packageType": "basic",
+          "generationDate": "2021-01-23T02:30:02Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T205000Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-06/NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T205000Z.csv",
+              "fileSizeBytes": 414,
+              "checksum": "c911ef2a33d2ba94c2dfe0e33569dc86",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-06/NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt",
+              "fileSizeBytes": 8525,
+              "checksum": "0cb2237ffda001a058b550d121b207c2",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20201214T205000Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-06/NEON.D03.BARC.DP1.20004.001.variables.20201214T205000Z.csv",
+              "fileSizeBytes": 15021,
+              "checksum": "566329b1fa44b71962c608ba31bf89bb",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20200601-20200701.20210123T023002Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-06/NEON.D03.BARC.DP1.20004.001.EML.20200601-20200701.20210123T023002Z.xml",
+              "fileSizeBytes": 77285,
+              "checksum": "418801f1fbf8846f3cd158fd83b2db41",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2020-06.basic.20201214T205000Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-06/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2020-06.basic.20201214T205000Z.csv",
+              "fileSizeBytes": 5246634,
+              "checksum": "4957c307341bd25477e67f512e9860e8",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2020-06.basic.20201214T205000Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/releases/RELEASE-2021/data/DP1.20004.001/BARC/2020-06/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2020-06.basic.20201214T205000Z.csv",
+              "fileSizeBytes": 188000,
+              "checksum": "0dd3c1f9003f6f1cdd25c4af34bea7bd",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

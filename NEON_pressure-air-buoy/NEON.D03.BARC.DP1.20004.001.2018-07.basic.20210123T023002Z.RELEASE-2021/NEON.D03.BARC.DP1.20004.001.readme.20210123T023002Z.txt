@@ -1,0 +1,124 @@
+This data package been produced by and downloaded from the National Ecological Observatory Network (NEON). NEON is funded by the National Science Foundation (Awards 0653461, 0752017, 1029808, 1138160, 1246537, 1638695, 1638696, 1724433) and managed cooperatively by Battelle. These data are provided under the terms of the NEON data policy at https://www.neonscience.org/data-policy.
+
+DATA PRODUCT INFORMATION
+------------------------
+
+ID: NEON.DOM.SITE.DP1.20004.001
+
+Name: Barometric pressure above water on-buoy
+
+Description: Barometric pressure, available as one-minute instantaneous measurements and thirty-minute averages for both station pressure and pressure reduced to sea level. Observations are made on the meteorology station on the buoy in lakes and rivers.
+
+NEON Science Team Supplier: Aquatic Instrument System
+
+Abstract: Barometric pressure on buoys is measured every minute and is reported as 1-minute instantaneous measurements and 30-minute mean values. Other than the data collection frequency, this data product has the same data streams and processing as barometric pressure measured at aquatic met stations.
+
+Latency:
+Data collected in any given month are published during the second full week of the following month.
+
+Brief Design Description: The buoys are comprised of sensor sets which measure meteorological parameters over a water surface along with submerged sensors that measure physical and chemical parameters of the water body. Some of these sensors are unique to the buoy subsystem and others are shared with other NEON subsystems, such as the wadeable stream sensor sets or terrestrial towers. Due to power, space, and data storage constraints on the buoy, the configuration of sensors deployed on a buoy may be different than those in other parts of NEON.
+
+Brief Study Area Description: Buoys will be deployed at all lake and large river sites within NEON.
+
+Sensor(s): Vaisala - BAROCAP Digital Barometer PTB330
+
+Keywords: atmospheric pressure, meteorological station, barometric pressure, metabolism, buoy, met station, aquatic, rivers, lakes
+
+QUERY INFORMATION
+-----------------
+
+Date-Time for Data Publication: 2020-12-14 20:46 (UTC)
+Start Date-Time for Queried Data: 2018-07-01 00:00 (UTC)
+End Date-Time for Queried Data: 2018-08-01 00:00 (UTC)
+
+Site: BARC
+Geographic coordinates (lat/long datum): 29.675982 -82.008414 WGS 84
+Domain: D03
+
+DATA PACKAGE CONTENTS
+---------------------
+
+This folder contains the following documentation files:
+
+- This readme file: NEON.D03.BARC.DP1.20004.001.readme.20210123T023002Z.txt
+- Term descriptions, data types, and units: NEON.D03.BARC.DP1.20004.001.variables.20201214T204634Z.csv
+- Machine-readable metadata file describing the data package: NEON.D03.BARC.DP1.20004.001.EML.20180701-20180801.20210123T023002Z.xml. This file uses the Ecological Metadata Language schema. Learn more about this specification and tools to parse it at https://www.neonscience.org/faq.
+- Sensor position information: NEON.D03.BARC.DP1.20004.001.sensor_positions.20201214T204634Z.csv
+- Other related documents, such as engineering specifications, field protocols and data processing documentation, are available. Please visit https://data.neonscience.org/data-products/DP1.20004.001 for more information.
+
+This folder also contains 2 data files:
+NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2018-07.basic.20201214T204634Z.csv - Barometric Pressure averaged over 1 minute
+NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2018-07.basic.20201214T204634Z.csv - Barometric Pressure averaged over 30 minutes
+
+Basic download package definition: Includes the data product, summary statistics, expanded uncertainty, and final quality flag.
+
+Expanded download package definition: Includes the basic package information plus quality metrics for all of the quality assessment and quality control analyses.
+
+FILE NAMING CONVENTIONS
+-----------------------
+
+NEON data files are named using a series of component abbreviations separated by periods. File naming conventions for NEON data files differ between NEON science teams. A file will have the same name whether it is accessed via NEON's data portal or API. Please visit https://www.neonscience.org/data-formats-conventions for a full description of the naming conventions.
+
+ISSUE LOG
+---------
+
+This log provides a list of issues that were identified during data collection or processing, prior to publication of this data package. For a more recent log, please visit this data product's detail page at https://data.neonscience.org/data-products/DP1.20004.001.
+
+Issue Date: 2020-03-26
+Issue: The alpha and beta quality metric multipliers used for computing the final quality flag were swapped in processing. The final quality flag is raised when alphaQM*m + betaQM*n >= 20%. The multiplier m should be set to 2 and n should be set to 1, but these values were swapped, making it slightly harder to raise the final quality flag. These multipliers were corrected in data produced after the resolution date. Data prior to the resolution date will be reprocessed prior to the first NEON data release. An additional changelog comment will be entered at that time.
+       Date Range: 2020-01-08 to 2020-01-08
+       Location(s) Affected: All
+Resolution Date: 2020-06-10
+Resolution: 2020-01-08: Processing code updated.
+
+Issue Date: 2020-06-10
+Issue: All data were reprocessed with the most recent algorithms, quality control thresholds, and/or other metadata to improve overall data coverage and quality. Notes have been added to the logs of previously identified issues that have been corrected.
+       Date Range: 2013-01-01 to 2020-06-10
+       Location(s) Affected: All
+Resolution Date: 2020-06-10
+Resolution: 
+
+Issue Date: 2020-03-12
+Issue: Buoy moved significantly down river while streaming data.
+       Date Range: 2019-11-01 to 2019-11-03
+       Location(s) Affected: TOMB (HOR.VER: 103.100)
+Resolution Date: 2019-11-03
+Resolution: Buoy stopped transmitting data
+
+Issue Date: 2019-07-17
+Issue: Incorrect calculations were applied to previously published data for the buoy station pressure corrected to sea level (corPres). For sites with both an inlet and outlet, when only one of inlet or outlet was available, the elevation was erroneously divided by two, resulting in incorrect corPres. When neither was available, the corPres term was still calculated using an elevation of 0.7 m.
+       Date Range: 2018-01-01 to 2019-06-30
+       Location(s) Affected: All locations
+Resolution Date: 2019-07-17
+Resolution: The calculation code was modified to fix corPres calculations and all data were reprocessed. The code has been modified to: (1) not divide the surface water elevation by two when only one of the inlet or outlet data streams are available, and (2) produce no corPres output when neither are available.
+
+Issue Date: 2019-06-13
+Issue: The quality flags for corPresDewPtQF and corPresTempQF outputs were erroneously set.
+       Date Range: 2018-01-01 to 2019-05-31
+       Location(s) Affected: All locations.
+Resolution Date: 2019-06-13
+Resolution: The code was changed to resolve this issue and data were reprocessed.  Fewer outputs for corPres are expected to be flagged by corPresDewPtQF, corPresTempQF, and corPresFinalQF due to this change.
+
+Issue Date: 2019-02-19
+Issue: Incorrect calibration information was applied to data.
+       Date Range: 2018-01-01 to 2018-10-31
+       Location(s) Affected: All locations.
+Resolution Date: 2019-02-19
+Resolution: Data reprocessed with correct calibration information.
+
+ADDITIONAL INFORMATION
+----------------------
+
+The Valid Calibration Flag is currently blank, but will be incorporated in future updates to this data product.
+
+NEON DATA POLICY AND CITATION GUIDELINES
+----------------------------------------
+
+A citation statement is available in this data product's detail page at https://data.neonscience.org/data-products/DP1.20004.001. Please visit https://www.neonscience.org/data-policy for more information about NEON's data policy and citation guidelines.
+
+DATA QUALITY AND VERSIONING
+---------------------------
+
+NEON data are initially published with a status of Provisional, in which updates to data and/or processing algorithms will occur on an as-needed basis, and query reproducibility cannot be guaranteed. Once data are published as part of a Data Release, they are no longer provisional, and are associated with a stable DOI.
+
+To learn more about provisional versus released data, please visit https://www.neonscience.org/data-revisions-releases.
