@@ -150,7 +150,7 @@ team_list <- list(list(individualName = list(givenName = "Pricilla", surName = "
 
 
 # Team name code
-team_name <- "LSAMP REU AWPC (Team Name ID: LSAMP_AWPC)"
+team_name <- "LSAMP_AWPC"
 
 # Download target file from the server
 download.file("https://data.ecoforecast.org/targets/aquatics/aquatics-targets.csv.gz",
