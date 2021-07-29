@@ -461,22 +461,24 @@ forecast_iteration_id <- start_forecast
 # The team name is the `forecast_model_id`
 forecast_model_id <- team_name
 
-source("metadata/generate_metadata.R")
+## Metadata generated with the following functions
+# Uncomment to replicate
 
-meta_data_filename <- generate_metadata(forecast_file =  forecast_file,
-                                        metadata_yaml = "metadata/metadata.yml",
-                                        forecast_issue_time = as_date(with_tz(Sys.time(), "UTC")),
-                                        forecast_iteration_id = start_forecast,
-                                        forecast_file_name_base = forecast_file_name_base)
+#neon4cast::create_model_metadata(forecast_file = 'aquatics-2021-07-01-LSAMP_AWPC.csv.gz')
+#neon4cast::write_metadata_eml(forecast_file = 'aquatics-2021-07-01-LSAMP_AWPC.csv.gz',
+#                              metadata_yaml = 'aquatics-2021-07-01-LSAMP_AWPC.yml',
+#                              forecast_issue_time = as_date(with_tz(Sys.time(), 'UTC')),
+#                              forecast_iteration_id = start_forecast)
+#forecast_validator('aquatics-2021-07-01-LSAMP_AWPC.xml')
 
 
 # Publish the forecast automatically.  Run only on EFI Challenge server
-if(efi_server){
-  source("../neon4cast-shared-utilities/publish.R")
-  publish(code = "03_generate_null_forecast_aquatics.R",
-          data_in = "aquatics-targets.csv.gz",
-          data_out = forecast_file,
-          meta = meta_data_filename,
-          prefix = "aquatics/",
-          bucket = "forecasts")
-}
+#if(efi_server){
+#  source("../neon4cast-shared-utilities/publish.R")
+#  publish(code = "03_generate_null_forecast_aquatics.R",
+#          data_in = "aquatics-targets.csv.gz",
+#          data_out = forecast_file,
+#          meta = meta_data_filename,
+#          prefix = "aquatics/",
+#          bucket = "forecasts")
+#}
