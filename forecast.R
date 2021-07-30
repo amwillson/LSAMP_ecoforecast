@@ -473,12 +473,5 @@ forecast_model_id <- team_name
 
 
 # Publish the forecast automatically.  Run only on EFI Challenge server
-#if(efi_server){
-#  source("../neon4cast-shared-utilities/publish.R")
-#  publish(code = "03_generate_null_forecast_aquatics.R",
-#          data_in = "aquatics-targets.csv.gz",
-#          data_out = forecast_file,
-#          meta = meta_data_filename,
-#          prefix = "aquatics/",
-#          bucket = "forecasts")
-#}
+neon4cast::submit(forecast_file = "aquatics-2021-07-01-LSAMP_AWPC.csv",
+                   metadata = "aquatics-2021-07-01-LSAMP_AWPC.xml")
