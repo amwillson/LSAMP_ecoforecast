@@ -1,0 +1,76 @@
+{
+  "uuid": "56d31932-f7f9-4c7a-ad94-9ad6f785f15c",
+  "timestamp": "2021-08-19T19:22:39Z",
+  "zipFileName": "NEON_pressure-air-buoy",
+  "mimeType": "application/zip",
+  "productCode": "DP1.20004.001",
+  "productName": "Barometric pressure above water on-buoy",
+  "siteCodes": [
+    "BARC"
+  ],
+  "startDate": "2021-07-01T00:00:00Z",
+  "endDate": "2021-07-31T23:59:59Z",
+  "packageType": "basic",
+  "documents": [],
+  "releases": [
+    {
+      "release": "PROVISIONAL",
+      "generationDate": null,
+      "packages": [
+        {
+          "release": "PROVISIONAL",
+          "productCode": "DP1.20004.001",
+          "domainCode": "D03",
+          "siteCode": "BARC",
+          "month": "2021-07",
+          "packageType": "basic",
+          "generationDate": "2021-08-18T13:04:06Z",
+          "files": [
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2021-07.basic.20210818T130351Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-07/NEON.D03.BARC.DP1.20004.001.103.100.030.BP_30min.2021-07.basic.20210818T130351Z.csv",
+              "fileSizeBytes": 195115,
+              "checksum": "24115bc7617af35876a02c8a8b31eb41",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.variables.20210818T130351Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-07/NEON.D03.BARC.DP1.20004.001.variables.20210818T130351Z.csv",
+              "fileSizeBytes": 17450,
+              "checksum": "b9db470b3a471b9a6209db30843def22",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2021-07.basic.20210818T130351Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-07/NEON.D03.BARC.DP1.20004.001.103.100.001.BP_1min.2021-07.basic.20210818T130351Z.csv",
+              "fileSizeBytes": 5446154,
+              "checksum": "1cf03461a5c40fdb4ba6d8350d85d67b",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.EML.20210701-20210801.20210818T130351Z.xml",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-07/NEON.D03.BARC.DP1.20004.001.EML.20210701-20210801.20210818T130351Z.xml",
+              "fileSizeBytes": 41967,
+              "checksum": "84d1444f490030731738e49c998feb18",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.sensor_positions.20210818T130351Z.csv",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-07/NEON.D03.BARC.DP1.20004.001.sensor_positions.20210818T130351Z.csv",
+              "fileSizeBytes": 475,
+              "checksum": "7886beb894ba55e7f86e19119bb4ddbf",
+              "checksumAlgorithm": "MD5"
+            },
+            {
+              "fileName": "NEON.D03.BARC.DP1.20004.001.readme.20210818T130351Z.txt",
+              "uri": "https://data.neonscience.org/api/v0/data/DP1.20004.001/BARC/2021-07/NEON.D03.BARC.DP1.20004.001.readme.20210818T130351Z.txt",
+              "fileSizeBytes": 10374,
+              "checksum": "23a0b12bfa818daad9d5ab70cba25727",
+              "checksumAlgorithm": "MD5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

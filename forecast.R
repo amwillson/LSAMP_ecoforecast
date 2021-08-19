@@ -30,7 +30,7 @@ neonstore::neon_dir()
 ## NEON website and saved to the working directory in a single folder
 
 # Empty matrix to fill in loop
-day_av = matrix(, nrow = 1404, ncol = 2)
+day_av = matrix(, nrow = 1435, ncol = 2)
 # Counter for loop
 count = 0
 
@@ -42,7 +42,8 @@ files = c('2017-08', '2017-09', '2017-10', '2017-11', '2017-12',
           '2019-07', '2019-08', '2019-09', '2019-10', '2019-11', '2019-12',
           '2020-01', '2020-02', '2020-03', '2020-04', '2020-05', '2020-06',
           '2020-07', '2020-08', '2020-09', '2020-10', '2020-11', '2020-12',
-          '2021-01', '2021-02', '2021-03', '2021-04', '2021-05', '2021-06')
+          '2021-01', '2021-02', '2021-03', '2021-04', '2021-05', '2021-06',
+          '2021-07')
 
 # Loop through the months and years that are all in different files
 for(j in 1:length(files)){
@@ -95,7 +96,7 @@ is.na(day_av$Pressure) = is.na(day_av$Pressure)
 siteID <- "BARC"
 lat <- 29.675982
 long <- -82.008414
-dte <- as.Date("2021-06-30")
+dte <- as.Date("2021-07-31")
 time_interval <- "1hr"
 cycle <- "00"
 download_noaa(siteID=siteID,interval=time_interval,date=dte,cycle=cycle,dir='../documents')
@@ -309,7 +310,7 @@ model_output %>%
   geom_ribbon(aes(ymin = lower, ymax = upper), alpha = 0.2, color = "lightblue", fill = "lightblue") +
   geom_point(data = obs, aes(x = time, y = obs), color = "red") +
   labs(x = "Date", y = "oxygen (ATM)") +
-  xlim(as.Date('2021-01-01'), as.Date('2021-07-07'))
+  xlim(as.Date('2021-01-01'), as.Date('2021-08-07'))
     
 # Forecast plot
 model_output %>% 
@@ -322,7 +323,7 @@ model_output %>%
   geom_ribbon(aes(ymin = lower, ymax = upper), alpha = 0.2, color = "lightblue", fill = "lightblue") +
   geom_point(data = obs, aes(x = time, y = obs), color = "red") +
   labs(x = "Date", y = "oxygen (ATM)") +
-  xlim(as.Date('2021-07-01'), as.Date('2021-07-07'))
+  xlim(as.Date('2021-08-01'), as.Date('2021-08-07'))
 
   
 # Filter only the forecasted dates and add columns for required variable
@@ -464,14 +465,14 @@ forecast_model_id <- team_name
 ## Metadata generated with the following functions
 # Uncomment to replicate
 
-#neon4cast::create_model_metadata(forecast_file = 'aquatics-2021-07-01-LSAMP_AWPC.csv.gz')
-#neon4cast::write_metadata_eml(forecast_file = 'aquatics-2021-07-01-LSAMP_AWPC.csv.gz',
-#                              metadata_yaml = 'aquatics-2021-07-01-LSAMP_AWPC.yml',
-#                              forecast_issue_time = as_date(with_tz(Sys.time(), 'UTC')),
-#                              forecast_iteration_id = start_forecast)
-#forecast_validator('aquatics-2021-07-01-LSAMP_AWPC.xml')
+#neon4cast::create_model_metadata(forecast_file = 'aquatics-2021-08-01-LSAMP_AWPC.csv.gz')
+#neon4cast::write_metadata_eml(forecast_file = 'aquatics-2021-08-01-LSAMP_AWPC.csv.gz',
+                              metadata_yaml = 'aquatics-2021-08-01-LSAMP_AWPC.yml',
+                              forecast_issue_time = as_date(with_tz(Sys.time(), 'UTC')),
+                              forecast_iteration_id = start_forecast)
+#forecast_validator('aquatics-2021-08-01-LSAMP_AWPC.xml')
 
 
 # Publish the forecast automatically.  Run only on EFI Challenge server
-neon4cast::submit(forecast_file = "aquatics-2021-07-01-LSAMP_AWPC.csv",
-                   metadata = "aquatics-2021-07-01-LSAMP_AWPC.xml")
+neon4cast::submit(forecast_file = "aquatics-2021-08-01-LSAMP_AWPC.csv.gz",
+                   metadata = "aquatics-2021-08-01-LSAMP_AWPC.xml")
